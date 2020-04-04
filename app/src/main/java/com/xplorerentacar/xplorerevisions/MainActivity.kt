@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = CustomWebViewClient(progress!!)
         webView.setBackgroundColor(Color.TRANSPARENT)
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("http://190.4.56.14/revisiones")
+        webView.loadUrl("http://192.168.2.119/RevisionesXplore/index.aspx")
 
 
     }
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /***
-     * MUESTRA EL WEBVIEW QUE CARGA LA PÁGINA DE RESERVACIONES
+     * MUESTRA EL WEBVIEW QUE CARGA LA PÁGINA DE REVISIONES
      */
     private fun showWebView() {
         TransitionManager.beginDelayedTransition(contenedorPadre)
