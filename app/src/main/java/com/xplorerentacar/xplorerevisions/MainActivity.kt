@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         webView.loadUrl("http://192.168.2.119/RevisionesXplore/index.aspx")
 
-
     }
 
 
