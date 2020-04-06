@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = CustomWebViewClient(progress!!)
         webView.setBackgroundColor(Color.TRANSPARENT)
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("http://192.168.2.119/RevisionesXplore/index.aspx")
+        webView.loadUrl("http://190.4.56.14/revisiones/")
 
     }
 
